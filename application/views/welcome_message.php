@@ -303,7 +303,7 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
                             <span class="sr-only">Navigation</span>
                             <i class="fa fa-bars"></i>
                         </a>
-                        <a href="index.html" class="navbar-brand">
+                        <a href="#" class="navbar-brand">
                             <img class="noo-logo-img noo-logo-normal" src="<?php echo base_url();?>assets/sites/all/themes/yogi/logo.png" alt="Yogi">
                         </a>
                     </div>
@@ -335,27 +335,27 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
 </ul></li>
 -->
 	<li  class="first expanded"><a href="<?php echo base_url();?>" class="active">Home</a></li>
-	<li><a href="#" title="">About</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/aboutUs" title="">About</a></li>
 	<li  class="expanded"><a href="#">Courses</a><ul class="sub-menu">
-	<li><a href="#" title="">Diploma in yoga</a></li>
-<li><a href="#" title="">PG Diploma in yoga</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/diploma" title="">Diploma in yoga</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">PG Diploma in yoga</a></li>
 </ul></li>
 <li  class="expanded"><a href="#">Students</a><ul class="sub-menu">
-	<li><a href="#" title="">Online Admission</a></li>
-<li><a href="#" title="">Enrollment Varification</a></li>
-<li><a href="#" title="">Results</a></li>
-<li><a href="#" title="">Online Admit Card</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/regStudent" title="">Online Admission</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Enrollment Varification</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/diploma" title="">Results</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/diploma" title="">Online Admit Card</a></li>
 </ul></li>
 <li  class="expanded"><a href="#">Study Centers</a><ul class="sub-menu">
-	<li><a href="#" title="">Online Fee Payment</a></li>
-<li><a href="#" title="">Affiliation Fee Payment</a></li>
-<li><a href="#" title="">Institute Affiliation Application</a></li>
-<li><a href="#" title="">Online Student Data Sending</a></li>
-<li><a href="#" title="">Trening center login</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/onlineFeePay" title="">Online Fee Payment</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/affFeePayment" title="">Affiliation Fee Payment</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/insFeePayment" title="">Institute Affiliation Application</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/stuDataSending" title="">Online Student Data Sending</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/trainCenterLogin" title="">Trening center login</a></li>
 </ul></li>
 
-	<li><a href="#" title="">News</a></li>
-	<li><a href="#" title="">Contact</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/news" title="">News</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/contact" title="">Contact</a></li>
 </ul></nav>
 <!-- END / HEADER MENU -->  </div>
                                     </div>  
@@ -451,11 +451,23 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
   <marquee behavior="scroll" loop="infinite" direction="up" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" scrolldelay=".0001" height="250">
     <ul style="list-style: none; list-style-type: none;">
       
+                <?php 
+                
+                 $r=$this->db->get('notice');
+                
+                 foreach ($r->result() as $row ):
+                
+                ?>
+            
+              <li style="list-style-image: url('/wp-content/plugins/scrolling-notice-board/icons/new.gif');"><a href="http://www.mgpysb.com/aims-of-yoga/"><?PHP echo $row->subject;?></a> <span class="time"><small><font color="green"><em>(<?PHP echo $row->date;?>)</em></font></small></span></li>
 
-        <li>he term yoga has been defined in various ways in the many different Indian philosophical and religio [...]</li>
-              <li style="list-style-image: url('/wp-content/plugins/scrolling-notice-board/icons/new.gif');"><a href="http://www.mgpysb.com/aims-of-yoga/">Aims of Yoga</a> <span class="time"><small><font color="green"><em>(4 months ago)</em></font></small></span></li>
+        
+              <li><?PHP echo $row->message;?></li>
+          
+               <?php
 
-        <li>One of the primary aims of yoga is to improve mental and physical health by keeping the body clean a [...]</li>
+                endforeach;
+               ?>
           </ul></marquee>
 </div>
       
@@ -757,7 +769,7 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
          <hr class="noo-gap noo-gap-50" /><div class="noo-cta-btn text-center">
 	          <h2 class="cta-title">Join our Monthly Membership </h2>
 	          <p class="cta-message">Take any class at your free time flexibly for whole month</p>
-	          <a href="#" class="btn square metro btn-default btn-subscribe">
+	          <a href="<?php echo base_url()?>index.php/welcome/signUpNow" class="btn square metro btn-default btn-subscribe">
 		           Sign up now
 	          </a>
          </div>
@@ -821,28 +833,31 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
         <div class="widget">
             			                <h4 class="widget-title">Quick Links</h4>
                                     <div class="menu-quicklink-container">
-      <ul class="menu"><li><a href="#">Home</a></li>
-           <li><a href="#">About</a></li>
-           <li><a href="#">Students</a></li>
-           <li><a href="#">Online</a></li>
-           <li><a href="#">News</a></li>
-           <li><a href="#">Contact Us</a></li>
-     </ul></div>        </div>
+      <ul class="menu"><li><a href="<?php echo base_url();?>">Home</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/aboutUs">About</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/regStudent">Students</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/enroll"">Online</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/news"">News</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/contact"">Contact Us</a></li>
+     </ul>
+     
+ </div>        </div>
+
     </div>
 	<div class="col-md-3 col-sm-6 block block-webform" >
         <div class="widget">
             			                <h4 class="widget-title">Contact Form</h4>
-                                    <form class="webform-client-form webform-client-form-96" enctype="multipart/form-data" action="#" method="post" id="webform-client-form-96" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--name">
+                                    <form class="webform-client-form webform-client-form-96" enctype="multipart/form-data" action="<?php echo base_url()?>index.php/welcome/conDetail" method="post" id="webform-client-form-96" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--name">
   <label class="element-invisible" for="edit-submitted-name--2">Name </label>
- <input contenteditable="true" class="form-control form-text" type="text" id="edit-submitted-name--2" name="submitted[name]" value="Name" size="60" maxlength="128" />
+ <input contenteditable="true" class="form-control form-text" type="text" id="edit-submitted-name--2" name="name"  placeholder="Name"   size="60" maxlength="128" />
 </div>
 <div  class="form-item webform-component webform-component-email webform-component--email">
   <label class="element-invisible" for="edit-submitted-email--2">Email </label>
- <input placeholder="Email" contenteditable="true" class="form-control form-text form-email" type="email" id="edit-submitted-email--2" name="submitted[email]" value="Email" size="60" />
+ <input placeholder="Email" contenteditable="true" class="form-control form-text form-email" type="email"  placeholder="Email"  id="edit-submitted-email--2" name="email" size="60" />
 </div>
 <div  class="form-item webform-component webform-component-textarea webform-component--message">
   <label class="element-invisible" for="edit-submitted-message--2">Message </label>
- <div class="form-textarea-wrapper resizable"><textarea contenteditable="true" class="form-control textarea form-textarea" name="submitted[message]" id="edit-submitted-message--2" cols="60" rows="5">Message</textarea></div>
+ <div class="form-textarea-wrapper resizable"><textarea contenteditable="true" class="form-control textarea form-textarea" placeholder="Message" name="message" id="edit-submitted-message--2" cols="60" rows="5"></textarea></div>
 </div>
 <input type="hidden" name="details[sid]" />
 <input type="hidden" name="details[page_num]" value="1" />
@@ -854,6 +869,14 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
     </div>
   </div>
                             </div>  
+
+
+  <div style="margin:auto; width: 10%;">
+     <h1>
+     	<?php echo $this->count_visitor;?>
+     </h1>
+
+  </div>
         </div>  
     </div>
     

@@ -1,156 +1,126 @@
- <section id="panel-third" class="panel">
-        <div class="container">
-            <div class="region region-panel-third">
-    <div id="block-block-9" class="block block-block">
-
-    
-  <div class="content">
-    <div class="mini_footer clearfix">
-<div class="block block-block block-info animation col-sm-6" id="block-block-2">
-<div class="content">
-<div class="pull-left">
-<address style="color: white">TERI, Ghazipur
-Post Graduate College,
-Ghazipur-U.P
-PIN Code-233001 <br>
-Ph: +91(548) 2220045, 2222087
-Fax: +91(548) 2220045, 2222087
-email: info@teri.ac.in</address>
-</div>
-</div>
-</div>
-
-<div class="block block-block col-sm-6" id="block-block-6">
-  
-  <div class="content">
-    <ul class="socials-list-footer">
-
-<li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-<li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<!--
-<li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Linkedin "><i class="fa fa-linkedin"></i></a></li>
-
-<li><a href="#" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Instagram"><i class="fa fa-youtube-play"></i></a></li>
--->
-</ul>  </div>
-</div>
-
+<div>
+	            <div class="row bg-image subscribe-section">
+    <div class="text-center col-md-12">
+         <hr class="noo-gap noo-gap-50" /><div class="noo-cta-btn text-center">
+	          <h2 class="cta-title">Join our Monthly Membership </h2>
+	          <p class="cta-message">Take any class at your free time flexibly for whole month</p>
+	          <a href="<?php echo base_url()?>index.php/welcome/signUpNow" class="btn square metro btn-default btn-subscribe">
+		           Sign up now
+	          </a>
+         </div>
+         <hr class="noo-gap noo-gap-50" /></div>
+</div></div></div>
   </div>
 </div>
-</div>
-  </div>
-
-        </div>
-      </section>
-
-<footer id="footer" class="section">
-        <div class="container">
-            <div class="region region-footer">
-    <div id="block-menu-menu-footer-menu" class="block block-menu col-sm-8">
-
-    
-  <div class="content">
-    <ul class="menu"><li class="first leaf"><a href="#">Term of use</a></li>
-<li class="leaf"><a href="#">Privacy Policy</a></li>
-<li class="leaf"><a href="#" target="_blank">Right to Information</a></li>
-<li class="leaf"><a href="#">Reports</a></li>
-<li class="leaf"><a href="#">Grievance</a></li>
-<li class="last leaf"><a href="#">Contact us</a></li>
-</ul>  </div>
-</div>
-<div id="block-block-3" class="block block-block pull-right">
-
-    
-  <div class="content">
-    <p>Copyright @ 2017. TERI</p>
-  </div>
-</div>
-  </div>
-          <!--?php print $feed_icons; ?-->
-        </div>
-      </footer>
-        
-	<a title="Back to Top" class="btn-btt" href="#Top">Back to Top</a>
-
-
-<div id="google_map_model" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Address Information</h4>
-            </div>
-            <div class="modal-body model_google_body_replace">
-
-            </div>
-
-        </div>
-
     </div>
+  </div>
+                            </div>
+        </div> 
+    </div>
+    
+        
+    <div class="colophon wigetized">
+        <div class="container-boxed max">
+            <div class="row">
+                                      <div class="region region-footer">
+    <div class="col-md-3 col-sm-6 block block-bean" >
+	<div class="widget widget_text">
+		                    <h4 class="widget-title">Address</h4>
+                        <div class="textwidget">
+    <div class="address">
+                    <ul>
+                                	                    <li><i class="fa fa-map-marker"></i> Infront of DM Banglow, Peer Nagar, Ghazipur 233001
+
+
+</li>
+                                	                    <li><i class="fa fa-phone"></i>(0548) 222-4324 , <br />Mobile : 0876-5073313 </li>
+                                	                    <li><i class="fa fa-envelope"></i>info@nyseps.com</li>
+                                	                    <li><i class="fa fa-skype"></i> nyseps.com </li>
+                            </ul>
+            </div>
+    <div class="noo-social">
+                    				                <a href="#"><i class="fa fa-facebook"></i></a>
+            				                <a href="#"><i class="fa fa-twitter"></i></a>
+            				                <a href="#"><i class="fa fa-pinterest"></i></a>
+            				                <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+</div>    </div>
+</div>	<div class="col-md-3 col-sm-6 block block-block" >
+        <div class="widget">
+            			                <h4 class="widget-title">Recent Tweets</h4>
+                                    <div class="recent-tweets">
+									<ul><li>
+											<span class="twitter_username">@yoga</span>
+											<span>Yoga can have numerous benefits for people with epilepsy. Namely, reducing stress and helping one feel more empowered and in control of their body.We are ... 
+												<a href="#" title="" target="_blank">http://t.yoga</a>
+											</span>
+										</li>
+										<li>
+											<span class="twitter_username">@yogaday</span>
+											<span>You are originally unlimited and perfect. Later you take on limitations and become the mind.... 
+												<a href="#" title="" target="_blank">http://t.yodaday</a>
+											</span>
+										</li>
+									
+									</ul></div>        </div>
+    </div>
+	<div class="col-md-3 col-sm-6 block block-block" >
+        <div class="widget">
+            			                <h4 class="widget-title">Quick Links</h4>
+                                    <div class="menu-quicklink-container">
+      <ul class="menu"><li><a href="<?php echo base_url();?>">Home</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/aboutUs">About</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/regStudent">Students</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/enroll">Online</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/news">News</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/contact">Contact Us</a></li>
+     </ul></div>        </div>
+    </div>
+	<div class="col-md-3 col-sm-6 block block-webform" >
+        <div class="widget">
+            			                <h4 class="widget-title">Contact Form</h4>
+                                    <form class="webform-client-form webform-client-form-96" enctype="multipart/form-data" action="#" method="post" id="webform-client-form-96" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--name">
+  <label class="element-invisible" for="edit-submitted-name--2">Name </label>
+ <input contenteditable="true" class="form-control form-text" type="text" id="edit-submitted-name--2" name="submitted[name]" value="Name" size="60" maxlength="128" />
 </div>
+<div  class="form-item webform-component webform-component-email webform-component--email">
+  <label class="element-invisible" for="edit-submitted-email--2">Email </label>
+ <input placeholder="Email" contenteditable="true" class="form-control form-text form-email" type="email" id="edit-submitted-email--2" name="submitted[email]" value="Email" size="60" />
+</div>
+<div  class="form-item webform-component webform-component-textarea webform-component--message">
+  <label class="element-invisible" for="edit-submitted-message--2">Message </label>
+ <div class="form-textarea-wrapper resizable"><textarea contenteditable="true" class="form-control textarea form-textarea" name="submitted[message]" id="edit-submitted-message--2" cols="60" rows="5">Message</textarea></div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-Ch8dpPbL2TepoAwo_5VS5NwTEzl3bzvAzUa0nVdXwqM" />
+<input type="hidden" name="form_id" value="webform_client_form_96" />
+<div class="form-actions"><input class="webform-submit button-primary form-control form-submit form-submit" type="submit" name="op" value="Submit" /></div></div></form>        </div>
+    </div>
+  </div>
+                            </div>  
+        </div>  
+    </div>
+    
+    <!-- Start Footer -->
+    <footer class="colophon site-info">
+        <div class="container-full">
+            <div class="footer-more">
+                <div class="container-boxed">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="noo-bottom-bar-content">Copyright © 2018. nyseps All rights reserved</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </footer>
+    <!-- End Footer -->
+    
+</div>
+<!-- End Site Wrapper -->
 
-
-
-<script>
-jQuery(document).ready(function($) {
-$('.uk-offcanvas-bar .menu li.expanded').prepend('<span class="toggle"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span>');
-
-$('.uk-offcanvas-bar .menu li.expanded .toggle').click(function(e) {
-    $(this).siblings('ul.menu').slideToggle();
-	$(this).toggleClass('activated');
-});	
-$('.uk-offcanvas-bar .menu li.active .toggle').addClass('activated');
-	
-  if ($("body").hasClass("page-office") == true) {
-   $("#cboxClose").on('click',function(){
-     location.reload();
-
-   })
-  }
-//----removing value of a select drupal------------------
-  $("#edit-submitted-type-of-query option:first-child").val("");
-  $("#edit-field-select-region-category-tid option:first-child").remove();
-
-$(".click_to_genrate_popup_triger").on('click',function(){
-
-  $(this).parent().parent().parent().children('.views-field-field-image').find('.first a').trigger('click');
-})
-  $("body").on('click','.class_map_display_model',function()
-  {
-    $(".model_google_body_replace").html('');
-   var data=  $(this).parent().parent().siblings('.views-field-field-address-my').clone(true,true);
-    $(".model_google_body_replace").html(data);
-console.log(data);
-  });
-
-	$('.view-id-leadership_team .view-content >*').each(function() {
-        $(this).find('.views-row>div').each(function(index, element) {
-             var save_mailto = $(this).find('.views-field-field-email-id .field-content').html();
-$(this).find('.views-field-field-email-id .field-content').html('<a href="mailto:'+save_mailto+'"><i class="fa fa-envelope-o"></i></a>');
-			
-			
-        });
-    });
-	
-$('.tree').parents('.row').addClass('no_pad');
-  $('.font_changer li a').click(function(e) {
-    var saveattr = $(this).attr('id');
-    $('html').removeAttr('id');
-    $('html').attr('id',saveattr);
-  });
-
-var saveMessage = $('.page-contact #messages').html();
-if(saveMessage){
-$('.page-contact #block-views-contact-form-block-block').prepend('<div class="lzt_js">'+saveMessage+'</div>');
-}
-
-$('.page-node-169 #main-menu-inner .tb-megamenu>ul > li').removeClass('active');
-});
-</script>  <script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/libraries/owlcarousel/owl.carousel.minb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/flexslider/assets/js/flexslider.loadb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/owlcarousel/includes/js/owlcarousel.settingsb798.js?ozcdfu"></script>
-</body>
-
-</html>
+<a href="#" class="go-to-top"><i class="fa fa-angle-up"></i></a></body>

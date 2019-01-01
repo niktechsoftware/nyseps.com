@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Welcome extends My_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -17,26 +17,84 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+    
 	public function index()
 	{
-		$this->load->view('welcome_message');
+	    $data=array('isi' =>'home/index_home');
+        
+		$this->load->view('welcome_message',$data);
 	}
-	
+	public function conDetail()
+	{
+	    $this->load->model('contact_model');
+	    $this->contact_model->contact();
+	    redirect(base_url()); 
+	}
 	public function regStudent()
 	{
 		$this->load->view('regStudent');
+	}
+	public function signUpNow()
+	{
+	    $this->load->view('signUpNow');
+	}
+	public function enroll()
+	{
+	    $this->load->view('enroll');
 	}
 	public function aboutUs()
 	{
 		$this->load->view('aboutUs');
 	}
+	public function diploma()
+	{
+	    $this->load->view('diploma');
+	}
+	public function diplomaPG()
+	{
+	    $this->load->view('diplomaPG');
+	}
+	public function admitCards()
+	{
+	    $this->load->view('admitCards');
+	}
+	public function results()
+	{
+	    $this->load->view('results');
+	}
 	public function beyondAcademics()
 	{
 		$this->load->view('beyondAcademics');
 	}
-	public function chairmanMessage()
+	public function onlineFeePay()
 	{
-		$this->load->view('chairmanMessage');
+	    $this->load->view('onlineFeePay');
+	}
+	public function insFeePayment()
+	{
+	    $this->load->view('insFeePayment');
+	}
+	public function affFeePayment()
+	{
+	    $this->load->view('affFeePayment');
+	}
+	public function trainCenterLogin()
+	{
+	    $this->load->view('trainCenterLogin');
+	}
+	public function news()
+	{
+	    $this->load->view('news');
+	}
+	public function contact()
+	{
+	    $this->load->view('contactDetail');
+	}
+	
+	
+	public function stuDataSending()
+	{
+		$this->load->view('stuDataSending');
 	}
 	public function directorMessage()
 	{

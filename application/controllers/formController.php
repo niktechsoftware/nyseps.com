@@ -79,17 +79,30 @@ class formController extends CI_Controller{
 			$data['mobile_no']  = $this->input->post("mobile_no");
 			$data['otp']  = $this->input->post("otp");
 			
-			$data['date']  =  date("Y-m-d H:i:s");
+			$data['date']  =  date("Y-m-d");
 			$data['approve']  = "Pending";
-				
-	
-	
-		if($this->db->insert("student_registration",$data)){
+			
+			$this->form_validation->set_rules('firstName', 'First Name', 'required');
+		    $this->form_validation->set_rules('father_firstName', 'Fathers First Name', 'required');
+		    $this->form_validation->set_rules('mobile_no', 'mobile_no', 'required');
+		    $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+		    if ($this->form_validation->run()) {
+		    	# code...
+		    	if($this->db->insert("student_registtration",$data)){
 			redirect("welcome/index/");
 		}
 		else{
 			redirect("index.php/login/index/noteFalse");
 		}
+
+	}
+	else
+	{
+		redirect("http://welcome/regStudent");
+	}
+	
+	
+		
 	}
 	
 }

@@ -19,7 +19,7 @@
   <div class="views-field views-field-nothing">        <span class="field-content"><div class=""><p>We would love to hear from you! Please fill out this form and we will get in touch with you shortly.</a></p></div>
 <div class="text-right">*Mandatory fields</div></span>  </div>  
   <div class="views-field views-field-webform-form-body">        <span class="field-content">
- 
+  <?php echo validation_errors(); ?>
   <form  method="post" action="<?php echo base_url()?>index.php/formController/stdregistration" enctype="multipart/form-data" accept-charset="UTF-8">
   <div>
   <div  class="form-item webform-component webform-component-select webform-component--name-pre">
@@ -29,6 +29,7 @@
 </div>
 <div  class="form-item webform-component webform-component-textfield webform-component--first-name">
   <label for="edit-submitted-first-name">First Name <span class="form-required" title="This field is required.">*</span></label>
+<?php echo form_error('firstName'); ?>
  <input placeholder="First Name*" type="text" id="edit-submitted-first-name" name="firstName" value="" size="60" maxlength="128" class="form-text required" required="required"/>
 </div>
 <div  class="form-item webform-component webform-component-textfield webform-component--last-name">
@@ -41,8 +42,10 @@
  <select id="edit-submitted-name-pre" name="father_preName" class="form-select required" required="required"><option value="Mr" selected="selected">Mr</option><option value="Mrs">Mrs</option></select>
 </div>
 <div  class="form-item webform-component webform-component-textfield webform-component--first-name">
+  
   <label for="edit-submitted-first-name">Father's First Name <span class="form-required" title="This field is required.">*</span></label>
- <input placeholder="Father's First Name*" type="text" id="edit-submitted-first-name" name="father_firstName" value="" size="60" maxlength="128" class="form-text required" required="required"/>
+ 
+ <?php echo form_error('father_firstName'); ?><input placeholder="Father's First Name*" type="text" id="edit-submitted-first-name" name="father_firstName" value="" size="60" maxlength="128" class="form-text required" required="required"/>
 </div>
 <div  class="form-item webform-component webform-component-textfield webform-component--last-name">
   <label for="edit-submitted-last-name">Father's Last Name <span class="form-required" title="This field is required."></span></label>
@@ -59,8 +62,9 @@
 
 
 <div  class="form-item webform-component webform-component-textfield webform-component--last-name">
-  <label for="edit-submitted-last-name">Mobile Number <span class="form-required" title="This field is required."></span></label>
- <input placeholder="Mobile Number*" type="text" id="mob" name="mobile_no" value="" size="60" maxlength="128" class="form-text required" required="required" />
+  <label for="edit-submitted-last-name">Mobile Number <span  title="This field is required."></span></label>
+  <?php echo form_error('mobile_no'); ?>
+ <input placeholder="Mobile Number*" type="text" id="mob" name="mobile_no" value="" size="60" maxlength="128" class="form-text " required="required" />
 </div>
 
 <div  class="form-item webform-component webform-component-textfield webform-component--last-name">

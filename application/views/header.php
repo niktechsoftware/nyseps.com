@@ -1,300 +1,366 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="#" type="#" />
- <meta name="Keywords" content="TERI,Technical Education & Research Institute, Ghazipur" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="<?php echo base_url();?>assets/sites/all/themes/yogi/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <title>Nice Yog Shikshan Evam Prashikshan Sansthan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css" media="all">
+@import url("<?php echo base_url();?>assets/modules/system/system.baseb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/modules/system/system.messagesb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/modules/system/system.themeb502.css?num8cd");
+</style>
+<style type="text/css" media="all">
+@import url("<?php echo base_url();?>assets/modules/comment/commentb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/date/date_api/dateb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/date/date_popup/themes/datepicker.1.7b502.css?num8cd");
+@import url("<?php echo base_url();?>assets/modules/field/theme/fieldb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/modules/node/nodeb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/modules/search/searchb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/modules/user/userb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/views/css/viewsb502.css?num8cd");
+</style>
+<style type="text/css" media="all">
+@import url("<?php echo base_url();?>assets/sites/all/modules/ctools/css/ctoolsb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/panels/css/panelsb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/panels/plugins/layouts/onecol/onecolb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/panels/plugins/layouts/twocol/twocolb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/revslider/css/revsliderb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/revslider/css/captionsb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/revslider/css/rs-settingsb502.css?num8cd");
+</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#rs-wrapper-1 .tp-leftarrow,#rs-wrapper-1 .tp-rightarrow{display:none;}
 
-  <title>Technical Education and Research Institute |</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="HandheldFriendly" content="true" />
-  <meta name="apple-touch-fullscreen" content="YES" />
-  <style type="text/css" media="all">
-@import url("<?php echo base_url();?>assets/modules/system/system.baseb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/system/system.menusb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/system/system.messagesb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/system/system.themeb798.css?ozcdfu");
-</style>
-<style type="text/css" media="screen">
-@import url("<?php echo base_url();?>assets/sites/all/modules/views_slideshow/views_slideshowb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/libraries/owlcarousel/assets/owl.carousel.minb798.css?ozcdfu");
+/*]]>*/-->
 </style>
 <style type="text/css" media="all">
-@import url("<?php echo base_url();?>assets/modules/book/bookb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/colorbox_node/colorbox_nodeb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/comment/commentb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/date/date_api/dateb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/date/date_popup/themes/datepicker.1.7b798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/date/date_repeat_field/date_repeat_fieldb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/field/theme/fieldb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/google_cse/google_cseb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/node/nodeb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/poll/pollb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/search/searchb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/user/userb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/modules/forum/forumb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/views/css/viewsb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/ckeditor/css/ckeditorb798.css?ozcdfu");
-</style>
-<style type="text/css" media="all">
-@import url("<?php echo base_url();?>assets/sites/all/modules/colorbox/styles/default/colorbox_styleb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/ctools/css/ctoolsb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/panels/css/panelsb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/views_metro/css/metrob798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/flexslider/assets/css/flexslider_imgb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/libraries/flexslider/flexsliderb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/tb_megamenu/css/bootstrapb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/tb_megamenu/css/baseb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/tb_megamenu/css/defaultb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/tb_megamenu/css/compatibilityb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycleb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/default/files/css/followb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/libraries/fontawesome/css/font-awesomeb798.css?ozcdfu");
-</style>
-<style type="text/css" media="all">
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/bootstrap/css/bootstrapb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/bootstrap/css/bootstrap-themeb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/htmlb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/baseb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/pageb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/blockb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/menub798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/off-canvasb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/animateb798.css?ozcdfu");
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/viewb798.css?ozcdfu");
+@import url("<?php echo base_url();?>assets/sites/all/themes/yogi/css/settingsb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/modules/webform/css/webformb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/themes/yogi/css/mainb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/themes/yogi/css/shopb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/themes/yogi/css/font-awesome.minb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/themes/yogi/css/fullcalendarb502.css?num8cd");
+@import url("<?php echo base_url();?>assets/sites/all/themes/yogi/css/prettyPhotob502.css?num8cd");
 </style>
 
-<!--[if IE 9]>
-<style type="text/css" media="all">
-@import url("https://www.teri.ac.in/sites/all/themes/educational/css/ie.css?ozcdfu");
-</style>
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://tk-themes.net/yogi/sites/all/themes/yogi/css/ie7.css?num8cd" media="all" />
 <![endif]-->
-<style type="text/css" media="only screen and (min-width:992px) and (max-width:1199px)">
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/screens/tabletb798.css?ozcdfu");
-</style>
-<style type="text/css" media="only screen and (max-width:991px)">
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/screens/commonb798.css?ozcdfu");
-</style>
-<style type="text/css" media="only screen and (min-width:768px) and (max-width:991px)">
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/screens/vertical_tabletb798.css?ozcdfu");
-</style>
-<style type="text/css" media="only screen and (max-width:767px)">
-@import url("<?php echo base_url();?>assets/sites/all/themes/educational/css/screens/mobileb798.css?ozcdfu");
-</style>
-  <script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min468f.js?v=1.10.2"></script>
 <script type="text/javascript" src="<?php echo base_url();?>assets/misc/jquery.once7839.js?v=1.2"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/misc/drupalb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/views_slideshow/js/views_slideshowc619.js?v=1.0"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/misc/ajaxdf1a.js?v=7.56"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/jquery_update/js/jquery_update241d.js?v=0.0.1"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/admin_menu/admin_devel/admin_develb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/google_cse/google_cseb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/libraries/colorbox/jquery.colorbox-minb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/colorbox/js/colorboxb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/colorbox/styles/default/colorbox_styleb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/colorbox/js/colorbox_loadb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/colorbox/js/colorbox_inlineb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/libraries/flexslider/jquery.flexslider-minb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/tb_megamenu/js/tb-megamenu-frontendb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/tb_megamenu/js/tb-megamenu-touchb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/libraries/jquery.cycle/jquery.cycle.all.minb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycleb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/misc/formb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/misc/collapseb798.js?ozcdfu"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/misc/drupalb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/revslider/rs-plugin/js/jquery.themepunch.tools.mineb77.js?v=4.6"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/revslider/rs-plugin/js/jquery.themepunch.revolution.mineb77.js?v=4.6"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/behavior_weights/behavior_weightsb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/revslider/js/revsliderb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.cookieb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/webform/js/webformb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery-migrate.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.themepunch.tools.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.themepunch.revolution.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/modernizr-2.7.1.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.touchSwipeb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/bootstrap.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/hoverIntent-r7.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/superfish-1.7.4.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/imagesloaded.pkgd.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/isotope-2.0.0.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/moment.minb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/fullcalendar.customb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.carouFredSel-6.2.1b502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.flexsliderb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/libs/jquery.prettyPhotob502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/testimonial-sliderb502.js?num8cd"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/yogi/js/mainb502.js?num8cd"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-
-  (function ($) {
-    Drupal.behaviors.skinMenuAction = {
-      attach: function (context) {
-        jQuery(".change-layout-button").on("click", function() {
-          var layout_class = $(this).attr("id");
-          var layout_width = 1400;
-          jQuery.cookie("weebpal_layout", layout_class, {path: "/"});
-          jQuery("#page").removeAttr("style");
-          jQuery("#page").removeClass("boxed");
-          if (layout_class != "layout-default") {
-            jQuery("#page").css("max-width", layout_width);
-            jQuery("#page").css("margin", "0 auto");
-            jQuery("#page").addClass("boxed");
-          }
-          $(".change-layout-button").removeClass("active");
-          if(!$(this).hasClass("active"))
-              $(this).addClass("active");
-          return false;
-        });
-      }
-    }
-  })(jQuery);
-
+jQuery.extend(Drupal.settings, {"basePath":"\/yogi\/","pathPrefix":"","ajaxPageState":{"theme":"yogi","theme_token":"DrpeRObOQghN6U-ZPjPHMVRkw_LVZjXr-UyZWxqISUc","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/revslider\/rs-plugin\/js\/jquery.themepunch.tools.min.js":1,"sites\/all\/modules\/revslider\/rs-plugin\/js\/jquery.themepunch.revolution.min.js":1,"sites\/all\/modules\/behavior_weights\/behavior_weights.js":1,"sites\/all\/modules\/revslider\/js\/revslider.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.cookie.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery-migrate.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.themepunch.tools.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.themepunch.revolution.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/modernizr-2.7.1.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.touchSwipe.js":1,"sites\/all\/themes\/yogi\/js\/libs\/bootstrap.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/hoverIntent-r7.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/superfish-1.7.4.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/imagesloaded.pkgd.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/isotope-2.0.0.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/moment.min.js":1,"sites\/all\/themes\/yogi\/js\/libs\/fullcalendar.custom.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.carouFredSel-6.2.1.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.flexslider.js":1,"sites\/all\/themes\/yogi\/js\/libs\/jquery.prettyPhoto.js":1,"sites\/all\/themes\/yogi\/js\/testimonial-slider.js":1,"sites\/all\/themes\/yogi\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/revslider\/rs-plugin\/css\/settings.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/twocol\/twocol.css":1,"sites\/all\/modules\/revslider\/css\/revslider.css":1,"sites\/all\/modules\/revslider\/css\/captions.css":1,"sites\/all\/modules\/revslider\/css\/rs-settings.css":1,"0":1,"sites\/all\/themes\/yogi\/css\/settings.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/yogi\/css\/main.css":1,"sites\/all\/themes\/yogi\/css\/shop.css":1,"sites\/all\/themes\/yogi\/css\/font-awesome.min.css":1,"sites\/all\/themes\/yogi\/css\/fullcalendar.css":1,"sites\/all\/themes\/yogi\/css\/prettyPhoto.css":1,"sites\/all\/themes\/yogi\/css\/ie7.css":1}},"rs":{"global":{"url":"http:\/\/tk-themes.net\/yogi\/sites\/default\/files\/","dir":"\/yogi\/sites\/all\/modules\/revslider"},"render":[{"id":"1","options":{"shuffle":"off","autoHeight":"off","forceFullWidth":"off","navigationType":"none","navigationStyle":"preview4","navigationHAlign":"center","naigationVAlign":"bottom","navigationHOffset":"0","navigationVOffset":"20","delay":"9000","startheight":"850","startwidth":"1280","startWithSlide":"0","onHoverStop":"off","keyboardNavigation":"off","navigationArrows":"none","soloArrowLeftHalign":"left","soloArrowLeftValign":"center","soloArrowLeftHOffset":"20","soloArrowLeftVOffset":"0","soloArrowRightHalign":"right","soloArrowRightValign":"center","soloArrowRightHOffset":"20","soloArrowRightVOffset":"0","touchenabled":"on","swipe_velocity":0.7,"swipe_max_touches":1,"swipe_min_touches":1,"drag_block_vertical":"true","stopAtSlide":"-1","stopAfterLoops":-1,"loopSingleSlide":"true","thumbWidth":"100","thumbHeight":"50","thumbAmount":"3","hideThumbs":"0","hideSliderAtLimit":"0","hideCaptionAtLimit":"0","hideAllCaptionAtLimit":"0","hideArrowsOnMobile":"on","hideBulletsOnMobile":"on","hideThumbsOnMobile":"on","hideThumbsUnderResoluition":"0","hideNavDelayOnMobile":"1500","spinner":"spinner2","slider_layout":"full","hideTimerBar":"off","timer ":"top","fullWidth":"off","minHeight":0,"fullScreenAlignForce":"on","fullScreen":"on","fullScreenOffset":"0px","shadow":"0","dottedOverlay":"none","parallax_enabled":"on","parallaxDisableOnMobile":"on","parallax":"mouse","parallaxBgFreeze":"on","parallaxLevels":[10,7,4,3,2,5,4,3,2,1],"panZoomDisableOnMobile":"on","simplifyAll":"on","timer":"top","global_settings__active_tab":"edit-layout-settings"}}]},"urlIsAjaxTrusted":{"\/yogi\/":true},"themePath":"sites\/all\/themes\/yogi"});
 //--><!]]>
 </script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/misc/progressdf1a.js?v=7.56"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/modules/colorbox_node/colorbox_nodeb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/educational/bootstrap/js/bootstrapb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/educational/js/uikit.minb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/educational/js/waypointsb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/educational/js/educationalb798.js?ozcdfu"></script>
-<script type="text/javascript" src="<?php echo base_url();?>assets/sites/all/themes/educational/js/jquery.smooth-scrollb798.js?ozcdfu"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"educational","theme_token":"hg9BYIoVtbwFRkVjeS7L4GlcNSVak3MctO1fJsZ2fCc","jquery_version":"1.10","js":{"sites\/all\/libraries\/owlcarousel\/owl.carousel.min.js":1,"sites\/all\/modules\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/modules\/owlcarousel\/includes\/js\/owlcarousel.settings.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.min.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"misc\/form.js":1,"misc\/collapse.js":1,"0":1,"misc\/progress.js":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.js":1,"sites\/all\/themes\/educational\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/themes\/educational\/js\/uikit.min.js":1,"sites\/all\/themes\/educational\/js\/waypoints.js":1,"sites\/all\/themes\/educational\/js\/educational.js":1,"sites\/all\/themes\/educational\/js\/jquery.smooth-scroll.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/libraries\/owlcarousel\/assets\/owl.carousel.min.css":1,"sites\/all\/libraries\/owlcarousel\/assets\/owl.theme.default.min.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_metro\/css\/metro.css":1,"sites\/all\/modules\/views_metro\/views_metro.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/educational\/bootstrap\/css\/bootstrap.css":1,"sites\/all\/themes\/educational\/bootstrap\/css\/bootstrap-theme.css":1,"sites\/all\/themes\/educational\/css\/html.css":1,"sites\/all\/themes\/educational\/css\/base.css":1,"sites\/all\/themes\/educational\/css\/page.css":1,"sites\/all\/themes\/educational\/css\/block.css":1,"sites\/all\/themes\/educational\/css\/menu.css":1,"sites\/all\/themes\/educational\/css\/off-canvas.css":1,"sites\/all\/themes\/educational\/css\/animate.css":1,"sites\/all\/themes\/educational\/css\/view.css":1,"sites\/all\/themes\/educational\/css\/ie.css":1,"sites\/all\/themes\/educational\/css\/screens\/tablet.css":1,"sites\/all\/themes\/educational\/css\/screens\/common.css":1,"sites\/all\/themes\/educational\/css\/screens\/vertical_tablet.css":1,"sites\/all\/themes\/educational\/css\/screens\/mobile.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":false,"mobiledevicewidth":"480px"},"googleCSE":{"cx":"015346839000696284814:pic_0_hlyxw","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":0},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":7000,"directionNav":true,"controlNav":true,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default"}},"viewsSlideshow":{"campus_slideshow-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"campus_slideshow-block":{"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"campus_slideshow-block":{"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_campus_slideshow-block":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"campus_slideshow-block","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"owlcarousel":{"owl-carousel-block79":{"settings":{"items":2,"margin":10,"loop":true,"center":false,"mouseDrag":true,"touchDrag":true,"pullDrag":true,"freeDrag":false,"stagePadding":0,"merge":false,"mergeFit":true,"autoWidth":false,"startPosition":0,"urlHashListner":false,"nav":true,"navRewind":true,"navText":["\u003Ci class=\u0022fa fa-angle-left\u0022\u003E\u003C\/i\u003E","\u003Ci class=\u0022fa fa-angle-right\u0022\u003E\u003C\/i\u003E"],"slideBy":2,"dots":false,"dotsEach":false,"dotsData":false,"lazyLoad":false,"lazyContent":false,"autoplay":true,"autoplayTimeout":5000,"autoplayHoverPause":false,"smartSpeed":250,"fluidSpeed":250,"autoplaySpeed":false,"navSpeed":false,"dotsSpeed":false,"dragEndSpeed":false,"callbacks":false,"responsiveRefreshRate":200,"responsiveClass":false,"video":false,"videoHeight":false,"videoWidth":false,"animateOut":false,"animateIn":false,"fallbackEasing":"swing","info":false,"nestedItemSelector":false,"itemElement":"div","stageElement":"div","navContainer":false,"dotsContainer":false,"responsive":[]},"views":{"ajax_pagination":null}}},"urlIsAjaxTrusted":{"\/":true},"colorbox_node":{"width":"600px","height":"600px"}});
-//--><!]]>
-</script>
+    <style type="text/css">
+                input[type="radio"]:checked:before { background: #fe6368; }
+input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus { border-color: #fe6368; }
+a {color: #fe6368; }
+.bg-primary,.btn-default:hover {background-color: #fe6368; border-color: #fe6368; }
+.noo-menu li>a:hover,.noo-menu li>a:active,.noo-menu li.current-menu-item>a {color: #fe6368; }
+body.page-menu-white .navbar:not(.navbar-fixed-top) .navbar-nav>li.current-menu-item>a,body.page-menu-white .navbar:not(.navbar-fixed-top) .navbar-nav>li.current-menu-parent>a,body.page-menu-white .navbar:not(.navbar-fixed-top) .navbar-nav>li.active>a,body.page-menu-white .navbar:not(.navbar-fixed-top) .navbar-nav>li>a:hover,.navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li:hover>a,.navbar-nav li.sfHover>a,.navbar-nav>li.current-menu-item>a,.navbar-nav>li.current-menu-parent>a {color: #fe6368; }
+@media (min-width: 992px) {
+    				.navbar-fixed-top.navbar-shrink .navbar-nav>li>a:hover,.navbar-fixed-top.navbar-shrink .navbar-nav>li.current-menu-item>a,.navbar-fixed-top.navbar-shrink .navbar-nav>li.current-menu-parent>a,.navbar-fixed-top.navbar-shrink .navbar-nav>li.active>a { color: #fe6368; } 
+    			}
+.navbar-fixed-top .navbar-brand,body.page-menu-center-vertical:not(.boxed-layout) .navbar.navbar-default:not(.navbar-fixed-top) .navbar-brand,.navbar-nav>li>a:before {background-color: #fe6368; }
+@media (min-width: 992px) {
+    				.navbar-default .navbar-nav.sf-menu>li>ul.sub-menu { background: #fe6368; } 
+    			}
+@media (min-width: 992px) {
+    				.navbar-default .navbar-nav.sf-menu>li>ul.sub-menu:before,.navbar-nav.sf-menu>li.align-center>ul.sub-menu:before,.navbar-nav.sf-menu>li.align-right>ul.sub-menu:before,.navbar-nav.sf-menu>li.align-left>ul.sub-menu:before,.navbar-nav.sf-menu>li.full-width.sfHover>a:before { border-bottom-color: #fe6368; } 
+    			}
+.hentry.format-quote a:hover,.hentry.format-link a:hover,.navbar-right .member-links a:hover {color: #fe6368 !important; }
+.loadmore-loading span {background: #fe6368; }
+.noo-social a:hover,.single .hentry .noo-social a:hover,.single .hentry .noo-social a:focus {background: #fe6368; border-color: #fe6368; }
+.rating_item .rating-slider-range .ui-slider-range {background: #fe6368; }
+h2.comments-title span,.comment-reply-link:hover,.comment-author a:hover,.comments-title span {color: #fe6368; }
+.ispostauthor {background: #fe6368; }
+.noo-slider .slider-control {background: #fe6368; }
+.read-more:hover,.read-more:focus {color: #fe6368; }
+.content-meta>span>a:hover,.hentry.format-quote a:hover,.hentry.format-link a:hover,.single .hentry.format-quote .content-title:hover,.single .hentry.format-link .content-title:hover,.single .hentry.format-quote a:hover,.single .hentry.format-link a:hover,.sticky h2.content-title:before {color: #fe6368; }
+.content-thumb:before {background: #fe6368; }
+.entry-tags,.entry-tags a,.author-connect .connect-button {color: #fe6368; }
+.post-navigation .prev-post h4:hover,.post-navigation .next-post h4:hover,.post-navigation .prev-post h4:focus,.post-navigation .next-post h4:focus,.post-navigation .prev-post h4:hover a,.post-navigation .next-post h4:hover a,.post-navigation .prev-post h4:focus a,.post-navigation .next-post h4:focus a {color: #fe6368; }
+.pagination .page-numbers.current,.pagination a.page-numbers:hover {background: #fe6368; border-color: #fe6368; }
+.content-social a:hover {color: #fe6368; border-color: #fe6368; }
+#loader,#loader:before,#loader:after {border-top-color: #fe6368; }
+@keyframes preload_audio_wave {
+				    0% {
+				        height: 5px;
+				        transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    25% {
+				        height: 30px;
+				        transform: translateY(15px);
+				        background: #fe6368;
+				    }
+
+				    50% {
+				        height: 5px;
+				        transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    100% {
+				        height: 5px;
+				        transform: translateY(0px);
+				        background: #fe6368;
+				    };
+				}
+@-webkit-keyframes preload_audio_wave {
+				    0% {
+				        height: 5px;
+				        -webkit-transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    25% {
+				        height: 30px;
+				        -webkit-transform: translateY(15px);
+				        background: #fe6368;
+				    }
+
+				    50% {
+				        height: 5px;
+				        -webkit-transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    100% {
+				        height: 5px;
+				        -webkit-transform: translateY(0px);
+				        background: #fe6368;
+				    };
+				}
+
+				@-moz-keyframes preload_audio_wave {
+				    0% {
+				        height: 5px;
+				        -moz-transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    25% {
+				        height: 30px;
+				        -moz-transform: translateY(15px);
+				        background: #fe6368;
+				    }
+
+				    50% {
+				        height: 5px;
+				        -moz-transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    100% {
+				        height: 5px;
+				        -moz-transform: translateY(0px);
+				        background: #fe6368;
+				    };
+				}
+
+				@keyframes preload_audio_wave {
+				    0% {
+				        height: 5px;
+				        transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    25% {
+				        height: 30px;
+				        transform: translateY(15px);
+				        background: #fe6368;
+				    }
+
+				    50% {
+				        height: 5px;
+				        transform: translateY(0px);
+				        background: #fe6368;
+				    }
+
+				    100% {
+				        height: 5px;
+				        transform: translateY(0px);
+				        background: #fe6368;
+				    };
+				}
+.wigetized .widget ul li a:hover,.wigetized .widget ol li a:focus,.wigetized .widget ul li a:hover,.wigetized .widget ol li a:focus {color: #fe6368; }
+.btn-primary,.form-submit,.form-submit input[type="submit"],.widget_newsletterwidget .newsletter-submit {background-color: #fe6368; border-color: #fe6368; }
+.noo-post-navi .noo_slider_prev:hover,.noo-post-navi .noo_slider_next:hover,.noo-post-navi .noo_slider_prev:focus,.noo-post-navi .noo_slider_next:focus {background-color: #fe6368; }
+.pagination .page-numbers.current {background-color: #fe6368; }
+.btn-link:hover,.btn-link:focus {color: #fe6368; }
+.footer-top .noo-social a:hover {background: #fe6368; border-color: #fe6368; }
+.contact-register .contact-register-header {background: #fe6368; }
+.contact-register .contact-register-header .arrow:after {border-top: 80px solid #fe6368; }
+.custom-title,.custom-title-home,.custom-title-home-center,.noo-sidebar .widget-title,.noo-page-heading .page-title,.single-noo_class .related-class .related-title,.noo-event .noo_event_map .event-info h5,.noo-event .noo_event_map .noo-pricing-table .event-info h5,.trainer-content .content .content-title { color: #fe6368; }
+.custom-title:before,.custom-title-home:before,.custom-title-home-center:before,.noo-sidebar .widget-title:before,.noo-page-heading .page-title:before,.single-noo_class .related-class .related-title:before,.noo-event .noo_event_map .event-info h5:before,.noo-event .noo_event_map .noo-pricing-table .event-info h5:before,.trainer-content .content .content-title:before {background: #fe6368; }
+.noo-sc-testimonial .testimonial-quote ul li .name { color: #fe6368; }
+.noo-sc-testimonial .testimonial-author ul li:after {background: #fe6368; }
+.our-services>div:hover .noo-icon,.videos.posts-loop .loop-thumb .loop-thumb-content .carousel-inner .item>a .icon,.videos.posts-loop .video .loop-item-wrap .loop-item-content .icon,.posts-loop.slider .loop-thumb-content .carousel-indicators li.active,.noo-trainers .hentry .trainer-item-wrap .content-wrap .trainer-category:before,.noo-trainers .hentry .trainer-item-wrap:hover,.noo-recent-news .item-featured .icon,.noo-recent-class .noo-rn-content.info_overlay .item-wrap:hover .item-title,.noo-pricing-table .noo-pricing-column.featured .pricing-content .pricing-header {background: #fe6368; }
+.noo-pricing-table .noo-pricing-column.featured .pricing-content .pricing-header .arrow:after {border-top-color: #fe6368; }
+.noo-pricing-table .noo-pricing-column .pricing-content .pricing-footer .btn:hover,.noo-pricing-table .noo-pricing-column .pricing-content .pricing-footer .btn:focus,.noo-pricing-table .noo-pricing-column .pricing-content .pricing-footer .widget_newsletterwidget .newsletter-submit:hover,.noo-pricing-table .noo-pricing-column .pricing-content .pricing-footer .widget_newsletterwidget .newsletter-submit:focus,.noo-pricing-table .noo-pricing-column.featured .pricing-content .pricing-footer .btn,.noo-pricing-table .noo-pricing-column.featured .pricing-content .pricing-footer .widget_newsletterwidget .newsletter-submit {background: #fe6368; }
+.videos.posts-loop .loop-thumb .loop-thumb-content .carousel-inner .item>a,.testimonial-content:before,.noo-menu-item-cart .noo-minicart .minicart-body .cart-product .cart-product-details .cart-product-title a:hover,.noo-recent-news .item-title a:hover,.noo-recent-news .read-more:hover,.noo-recent-news .read-more:focus {color: #fe6368; }
+.custom-footer .footer-social a:hover {background: #fe6368; border-color: #fe6368; }
+.posts-loop .posts-loop-title a.active,.posts-loop .loop-item-category a,input[type="checkbox"]:checked:before {color: #fe6368; }
+.noo-class-schedule .class-schedule-filter ul li a.selected,.noo-class-schedule .class-schedule-filter ul li a:hover,.noo-class-schedule .class-schedule-filter ul li a.active {background: #fe6368; border-color: #fe6368; }
+.noo-class-schedule .fc-toolbar .fc-left .fc-state-default:hover,.noo-class-schedule .fc-toolbar .fc-right .fc-state-default:hover,.noo-class-schedule .fc-toolbar .fc-left .fc-state-default:focus,.noo-class-schedule .fc-toolbar .fc-right .fc-state-default:focus { background: #fe6368; }
+.single-noo_class .noo_class .content-meta span,.noo-class-schedule .fc-view .fc-widget-content .fc-time-grid .fc-time-grid-event .fc-content .fc-trainer { color: #fe6368; }
+.single .hentry .content-wrap ul li:before,.single-noo_class .noo_class .content-footer #author-bio .view-profile,.single-noo_class .single-sidebar .class-info-sidebar>div i,.single-noo_class .single-sidebar .class-info-sidebar>div span,.single-noo_class .related-class .noo-class-slider-content .noo-class-slider-item .class-slider-content .class-slider-category a { color: #fe6368; }
+.single-noo_class .related-class .slider-indicators a.selected {background: #fe6368; }
+.noo-events .event-info>div i,.noo-event .event-header .content-meta i,.noo-event ul li:before,.noo-event .noo_event_map .event-info>div i,.noo-event .noo_event_map .noo-pricing-table .event-info>div i { color: #fe6368; }
+.noo-trainers .masonry-filters ul li a.selected,.noo-trainers .masonry-filters ul li a:hover {background: #fe6368; border-color: #fe6368; }
+.trainer-details .trainer-info .trainer-category:before {background: #fe6368; }
+.trainer-details .trainer-info .view_class,.trainer-content .content ul li:before { color: #fe6368; }
+.hentry .content-wrap .content-category a,.widget_class_slider .widget-class-slider-content .noo-class-slider-item .class-slider-content .class-slider-category a { color: #fe6368; }
+.widget_categories ul li a:before { color: #fe6368; }
+.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,.widget_class_slider .slider-indicators a.selected { background: #fe6368; }
+.shop ul.products li.product figure .product-wrap .shop-loop-actions a:hover,.shop ul.products li.product figure .product-wrap .shop-loop-actions a:focus { color: #fe6368; }
+.shop .cart .button,.shop .cart input.button { color: #fe6368; border-color: #fe6368; }
+.shop .cart .button:hover,.shop .cart input.button:hover { background: #fe6368; }
+.noo-gmaps~.contact-info ul li i { background: #fe6368; }
+.shop .star-rating span { color: #fe6368; }
+.product-masonry .masonry-filters ul li a.selected { color: #fe6368; border-bottom-color: #fe6368; }
+.pricing-footer a:hover,.pricing-footer a:focus { background: #fe6368; }
+.site div.healcode a.hc-button,.site div.healcode input.hc-button,.site div.healcode .hc-actions input[type="submit"] { background: #fe6368; }
+.noo-gmaps~.contact-info ul li i { background: #fe6368; }
+.navbar-nav > li > a.active { color: #fe6368; }
+.navbar-nav > li > a.active:before { background: #fe6368; }
+.noo-slider .flex-direction-nav li { background: #fe6368; }
+.pagination .page-numbers.current, .item-list .pager .pager-current { background: #fe6368; }
+.shop ul.products li.product figure .product-wrap .product-overlay, .noo_rating_point,.button-social.box,.noo-recent-news .loop-item-featured a:hover:before, .standard-blog .rated_count { background: rgba(254,99,104, 0.5); }
+.bg-primary-overlay { background: rgba(254,99,104, 0.9); }
+.bg-primary-overlay { background: rgba(254,99,104, 0.9); }
+.recent-tweets li a { color: #fe6368 !important; }
+.navbar-nav > li > a.active:before, .navbar-nav > li.active-trail > a:before { width: 100%; background: #fe6368; }
+.navbar-nav > li.active-trail > a { color: #fe6368; }
+.navbar-nav ul.sub-menu li>a:hover, .navbar-nav ul.sub-menu li>a:focus, .navbar-nav ul.sub-menu li:hover>a, .navbar-nav ul.sub-menu li.sfHover>a, .navbar-nav ul.sub-menu li.current-menu-item>a, .navbar-nav .cat-mega-content .cat-mega-extra .cat-mega-extra-item h3 a:hover, .navbar-nav .cat-mega-content .cat-mega-extra .cat-mega-extra-item h3 a:focus { background: #fe4a4d; }
+a:hover,a:focus,.text-primary,a.text-primary:hover,.noo-page-heading .noo-page-breadcrumb ul li a:hover
+                { color: #fe4a4d; }
+.btn-darker:hover,.btn-darker:focus,.button:hover,.button:focus,.form-submit input[type="submit"]:hover,.form-submit input[type="submit"]:focus {background: #fe4a4d; border-color: #fe4a4d; }
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.h1 a:hover,.h2 a:hover,.h3 a:hover,
+                .h4 a:hover,.h5 a:hover,.h6 a:hover { color: #fe4a4d; }
+.navbar-nav li a.active-trail.active { background: #fe4a4d; }
+.nf-pattern { background: #000000 url(<?php echo base_url();?>assets/sites/all/themes/yogi/images/background/patterns/15.png) repeat scroll center center !important;}
+        a:link, #node-title a {}
+a:hover, #node-title a:hover {}
+a:visited, #node-title a:visited {}
+a:focus, a:active, #node-title a:focus, #node-title a:active {}
+            </style>
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:100,300,400,500,600,700,900,100italic,300italic,400italic,500italic,600italic,700italic,900italic' type='text/css' media='all'/>
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body class="html front not-logged-in two-sidebars page-node page-node- page-node-1 node-type-page i18n-en animation-none" >
-  
-    <style>
-</style>
-<!-- logzeroTechnologies code -->
-<div class="container-fluid topPan">
-  <div class="container">
-  <div class="row">
-        <div class="col-sm-8" >
-                  <div class="region region-top-pan">
-    <div id="block-block-10" class="block block-block">
-
-    
-  <div class="content">
-           <marquee  scrolldelay="120" behavior="alternate"  onmouseover="this.stop();" onmouseout="this.start();"> 
- 
-<p>
- 
-  <strong style="color:#FFF; font-size: 16px;">
- <?php $res = $this->db->get("heading"); ?> 
- <?php $row = $res->last_row()?>
- <?php echo $row->msg; ?>
-  </strong>
-</marquee> 
-       </div>
-</div>
-  </div>
-              </div>
-
-            <!-- /.region -->
-
-                        <div class="region region-top-pan-menu">
-    <div id="block-block-8" class="block block-block">
-
-    
-  <div class="content">
-     <div class="col-sm-4 top_menu text-right"> 
-   <a href="<?php echo base_url();?>index.php/welcome/alumniStudent" class="login_btn" > Alumni</a>       
-<a href="<?php echo base_url();?>index.php/welcome/regStudent" class="login_btn" ><i class="ico-user"></i>Register Student</a></div>  </div>
-</div>
-  </div>
+<body class="home page-menu-center-vertical  html front not-logged-in no-sidebars page-home" >
+<div class="site">
+    <!-- Start Header -->
+    <header class="noo-header">
+        <div class="navbar-wrapper">
+            <div class="navbar  fixed-top" role="navigation">
+                <div class="container-boxed max">
+                 <div class="navbar-header">
+                        <a class="navbar-toggle collapsed" data-toggle="collapse" data-target=".noo-navbar-collapse">
+                            <span class="sr-only">Navigation</span>
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <a href="#" class="navbar-brand">
+                            <img class="noo-logo-img noo-logo-normal"  src="<?php echo base_url();?>assets/sites/all/themes/yogi/logo.png" alt="Yogi">
+                        </a>
+                    </div>
                    
-    </div>
-  
-  
-  </div>
-</div>
-<header id="masthead" class="container padTopBtm10 no-white no-pad" role="banner">
-    <div class="row">
-      <div id="logo" class="col-md-8 col-sm-8 col-xs-12">
-
-
-                <h1 class="logo">
-                                                                                          <a href="<?php echo base_url();?>" title="Back To Home" rel="home" id="logo">
-                                  <img src="<?php echo base_url();?>assets/sites/default/files/logo_updated_0.png" alt="Back To Home" />
-                              </a>
-                                                                                </h1>
-                                      </div>
-      <div class="col-md-4 col-sm-4 col-xs-12 Search"> <div class="region region-search">
-  <div id="block-custom-search-blocks-1" class="block block-custom-search-blocks form-group has-feedback" role="search">
-
-      
-  <div class="content">
-      <div class="region region-header">
-    <div id="block-search-form" class="block block-search animation">
-
-    
- 
-</div>
-<div id="block-block-34" class="block block-block">
-
-    
-  <div class="content">
-    <!-- <div class="content">
-    <form action="/TERI/coming-soon" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-      <h2 class="element-invisible">Search form</h2>
-    <div class="form-item form-type-textfield form-item-search-block-form">
-  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
- <input title="Enter the terms you wish to search for." placeholder="Search any term..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
-</div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" >
-<input type="hidden" name="form_id" value="search_block_form">
-</div>
-</div></form>
-</div>
--->  </div>
-</div>
-  </div>
-    </div>
-  
-</div> <!-- /.block -->
-</div>
- <!-- /.region -->
- </div>
-    </div>
-  </header>
-  
-    <div id="mobile-menu" class="uk-offcanvas">
-    	 <span class="close_toggle_hit">&#10005;</span>
-      <div class="uk-offcanvas-bar">
-     
-          <div class="region region-panel-mobile-menu">
-    <div id="block-menu-block-9--2" class="block block-menu-block">
-
-    
-  <div class="content">
-    <div class="menu-block-wrapper menu-block-9 menu-name-main-menu parent-mlid-0 menu-level-1">
-  <ul class="menu"><li class="first leaf active-trail active menu-mlid-221">
-  <a href="<?php echo base_url();?>" class="active-trail active">Home</a></li>
-<li class="expanded menu-mlid-547"><a href="#">About TERI</a><ul class="menu"><li class="first leaf menu-mlid-1173"><a href="about-us/history.html" title="orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy">History</a></li>
-<li class="leaf menu-mlid-1176"><a href="#">GENESIS & GROWTH OF TERI</a></li>
-<li class="leaf menu-mlid-1356"><a href="#">BEYOND ACADEMICS</a></li>
-<li class="leaf menu-mlid-1174"><a href="#">CHAIRMAN MESSAGE</a></li>
-<li class="leaf menu-mlid-1178"><a href="#">DIRECTOR MESSAGE</a></li>
-
+                                              <div class="region region-menu">
+   <!-- HEADER MENU -->
+<nav class="collapse navbar-collapse noo-navbar-collapse block block-system block-menu"  id="block-system-main-menu">
+	<ul class="navbar-nav sf-menu">
+	<!--  <li  class="first expanded"><a href="<?php echo base_url();?>" class="active">Home</a></li>
+<li  class="expanded"><a href="class-list.html">Classes</a><ul class="sub-menu"><li><a href="class-schedule.html" title="">Class Schedule</a></li>
+<li><a href="class-list.html" title="">Classes Listing</a></li>
+<li><a href="class-grid.html" title="">Classes Grid</a></li>
+<li><a href="class/morning-flow.html" title="">Single Class</a></li>
 </ul></li>
-<li class="expanded menu-mlid-549"><a href="#">Programs</a><ul class="menu"><li class="first leaf menu-mlid-1282"><a href"#" title="News and Press Releases">Programs</a></li>
-<li class="leaf menu-mlid-1283"><a href="#">BCA</a></li>
-<li class="leaf menu-mlid-1284"><a href="#">BBA</a></li>
-<li class="leaf menu-mlid-1285"><a href="#">MCA</a></li>
-<li class="leaf menu-mlid-1286"><a href="#">MBA</a></li>
-
+<li  class="expanded"><a href="trainer-list.html">Trainer</a><ul class="sub-menu"><li><a href="trainer-list.html" title="">Trainer List</a></li>
+<li><a href="trainer/clara-brown.html" title="">Trainer Profile</a></li>
+</ul></li>
+<li  class="expanded"><a href="event-list.html">Events</a><ul class="sub-menu"><li><a href="event-list.html" title="">Event Listing</a></li>
+<li><a href="event/meditation-workshop.html" title="">Single Event</a></li>
+</ul></li>
+<li  class="expanded"><a href="about-us.html">Pages</a><ul class="sub-menu"><li><a href="about-us.html" title="">About Us</a></li>
+<li><a href="contact.html" title="">Contact</a></li>
+<li><a href="membership.html" title="">Membership</a></li>
+</ul></li>
+<li  class="expanded"><a href="blog.html">Blog</a><ul class="sub-menu"><li><a href="blog/sky-flow-sunchaser.html" title="">Single Post</a></li>
+</ul></li>
+<li  class="last expanded"><a href="products.html">Shop</a><ul class="sub-menu"><li><a href="shop-masonry.html" title="">Shop Masonry</a></li>
+<li><a href="cart.html" title="">Cart</a></li>
+<li><a href="product/natural-mat.html" title="">Shop Detail</a></li>
+</ul></li>
+-->
+	<li  class="first expanded"><a href="<?php echo base_url();?>" class="active">Home</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/aboutUs" title="">About</a></li>
+	<li  class="expanded"><a href="#">Courses</a><ul class="sub-menu">
+	<li><a href="<?php echo base_url()?>index.php/welcome/diploma" title="">Diploma in yoga</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">PG Diploma in yoga</a></li>
+</ul></li>
+<li  class="expanded"><a href="#">Students</a><ul class="sub-menu">
+	<li><a href="<?php echo base_url()?>index.php/welcome/regStudent" title="">Online Admission</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Enrollment Varification</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/results" title="">Results</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/admitCards" title="">Online Admit Card</a></li>
+</ul></li>
+<li  class="expanded"><a href="#">Study Centers</a><ul class="sub-menu">
+	<li><a href="<?php echo base_url()?>index.php/welcome/onlineFeePay" title="">Online Fee Payment</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/affFeePayment" title="">Affiliation Fee Payment</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/insFeePayment" title="">Institute Affiliation Application</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/stuDataSending" title="">Online Student Data Sending</a></li>
+<li><a href="<?php echo base_url()?>index.php/welcome/trainCenterLogin" title="">Training center login</a></li>
 </ul></li>
 
-<li class="leaf menu-mlid-1290"><a href="#"> Academics</a></li>
-<li class="leaf menu-mlid-1288"><a href="<?php echo base_url();?>index.php/welcome/faculty/"> FACULTY </a></li>
-<li class="leaf menu-mlid-1287"><a href="<?php echo base_url();?>index.php/welcome/admissinProcedure">ADMISSION PROCEDURE</a></li>
-<li class="leaf menu-mlid-1291"><a href="<?php echo base_url();?>index.php/welcome/fmRedio">Research Insititution &amp; Faculty Development (RIFD)</a></li>
-<li class="last leaf menu-mlid-1289"><a href="#"> FM RADIO STATION</a></li>
-
-<li class="leaf menu-mlid-1652"><a href="<?php echo base_url();?>index.php/welcome/infrastructure"> INFRASTRUCTURE</a></li>
-<li class="leaf menu-mlid-1162"><a href="<?php echo base_url();?>index.php/welcome/lectureTheaters">LECTURE THEATERS</a></li>
-<li class="expanded menu-mlid-1160"><a href="<?php echo base_url();?>index.php/welcome/library"> LIBRARIES</a><ul class="menu"><li class="first leaf menu-mlid-1292"><a href="education/overview.html">Overview</a></li>
-<li class="leaf menu-mlid-1294"><a href="<?php echo base_url();?>index.php/welcome/pedagogy">PEDAGOGY </a></li>
-<li class="leaf menu-mlid-1295"><a href="<?php echo base_url();?>index.php/welcome/hostel">FACILITIES </a></li>
-<li class="leaf menu-mlid-1296"><a href="<?php echo base_url();?>index.php/welcome/umang">UMANG TERI COLLEGE</a></li>
-<li class="leaf menu-mlid-1297"><a href="<?php echo base_url();?>index.php/welcome/training">Placements</a></li>
-<li class="leaf menu-mlid-1298"><a href="#">Training & Placement</a></li>
-<li class="leaf menu-mlid-1299"><a href="#">Top Recruiters</a></li>
-<li class="leaf menu-mlid-1300"><a href="#">Placed Students </a></li>
-<li class="leaf menu-mlid-1301"><a href="#">Curriculum / Syllabi</a></li>
-<li class="last leaf menu-mlid-1302"><a href="#">Library Services</a></li>
-</ul></li>
-</ul></div>
-  </div>
-</div>
-  </div>
-      </div>
-    </div>
-    	<div id="mobile_toggle" class="">
-    <a href="javascript:;" class="off-canvas-toggle navbar-canvas-toggle icon-toggle hidden-lg clearfix" data-uk-offcanvas="{target:'#mobile-menu'}">
-        <span>Menu</span> <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    
+	<li><a href="<?php echo base_url()?>index.php/welcome/news" title="">News</a></li>
+	<li><a href="<?php echo base_url()?>index.php/welcome/contact" title="">Contact</a></li>
+</ul></nav>
+<!-- END / HEADER MENU -->  </div>
+                                    </div>  
+            </div>  
+        </div>
+    </header>
+    <!-- End Header -->
